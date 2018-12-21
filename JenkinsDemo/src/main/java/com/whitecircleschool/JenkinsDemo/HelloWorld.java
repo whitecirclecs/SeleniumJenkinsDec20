@@ -28,7 +28,7 @@ public class HelloWorld {
 
 	@AfterTest
 	public void closeBrowser() {
-		driver.close();
+		driver.close()
 	}
 
 }
